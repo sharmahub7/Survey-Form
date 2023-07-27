@@ -1,0 +1,131 @@
+<body>
+  <div class="mobile">Enable Desktop View</div>
+  <div class="container">
+    <div class="banner">
+      <h1>Developers Survey Form</h1>
+      <span><img src="bg.png" alt="" width="100px" /> </span>
+    </div>
+    <form action="">
+      <!-- DEV DETAILS -->
+      <div class="developer-details">
+        <p class="title">Developer Detail</p>
+        <div class="dev-detail1 flex">
+          <input type="text" placeholder="Full Name" />
+          <input type="text" placeholder="Country" />
+        </div>
+        <div class="dev-detail2 flex">
+          <input type="tel" maxlength="10" placeholder="Phone" />
+          <input type="email" placeholder="Email" />
+        </div>
+        <!-- GENDER -->
+        <div class="gender">
+          <span>Gender : </span>
+          <input type="radio" name="gender" id="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female" />
+          <label for="female">Female</label>
+        </div>
+      </div>
+      <!-- TECH LIST -->
+      <div class="techs">
+        <p class="title">Technologies</p>
+        <div class="web-development">
+          <ul class="techs-list">
+            <div class="first-col">
+              <li>
+                <input type="checkbox" id="html" />
+                <label for="html">HTML</label>
+              </li>
+              <li>
+                <input type="checkbox" id="css" />
+                <label for="css">CSS</label>
+              </li>
+              <li>
+                <input type="checkbox" id="javascript" />
+                <label for="javascript">JavaScript</label>
+              </li>
+            </div>
+            <div class="second-col">
+              <li>
+                <input type="checkbox" id="bootstrap" />
+                <label for="bootstrap">Bootstrap</label>
+              </li>
+              <li>
+                <input type="checkbox" id="tailwind" />
+                <label for="tailwind">Tailwind</label>
+              </li>
+              <li>
+                <input type="checkbox" id="sass" />
+                <label for="sass">SASS/SCSS</label>
+              </li>
+            </div>
+            <div class="third-col">
+              <li>
+                <input type="checkbox" id="reactjs" />
+                <label for="reactjs">React JS</label>
+              </li>
+              <li>
+                <input type="checkbox" id="angular" />
+                <label for="angular">Angular</label>
+              </li>
+              <li>
+                <input type="checkbox" id="vuejs" />
+                <label for="vuejs">Vue Js</label>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <!-- SURVEY QUESTIONS -->
+      <div class="survey">
+        <p class="title">Questions</p>
+        <div class="questions quesion-1">
+          <p>1. Have you used ChatGPT in your projects?</p>
+          <input type="radio" id="q1-y" value="YES" name="q1" />
+          <label for="q1-y">Yes</label>
+          <input type="radio" id="q1-n" value="No" name="q1" />
+          <label for="q1-n">No</label>
+        </div>
+        <div class="questions quesion-2">
+          <p>2. Can ChatGPT replace human interactions in certain scenarios?</p>
+          <input type="radio" id="q2-y" value="YES" name="q2" />
+          <label for="q2-y">Yes</label>
+          <input type="radio" id="q2-n" value="No" name="q2" />
+          <label for="q2-n">No</label>
+        </div>
+        <div class="questions quesion-3">
+          <p>3. Would you recommend ChatGPT to other developers?</p>
+          <input type="radio" id="q3-y" value="YES" name="q3" />
+          <label for="q3-y">Yes</label>
+          <input type="radio" id="q3-n" value="No" name="q3" />
+          <label for="q3-n">No</label>
+        </div>
+        <div class="questions quesion-4">
+          <p>4. Have you used other conversational AI tools</p>
+          <input type="radio" id="q4-y" value="YES" name="q4" />
+          <label for="q4-y">Yes</label>
+          <input type="radio" id="q4-n" value="No" name="q4" />
+          <label for="q4-n">No</label>
+        </div>
+        <div class="questions quesion-5">
+          <p>4. Rate ChatGPT from average to excellent</p>
+          <input type="radio" id="average" value="Average" name="q5" />
+          <label for="average">Average</label>
+
+          <input type="radio" id="good" value="Good" name="q5" />
+          <label for="good">Good</label>
+
+          <input type="radio" id="verygood" value="Very Good" name="q5" />
+          <label for="verygood">Very Good</label>
+
+          <input type="radio" id="excellent" value="Excellent" name="q5" />
+          <label for="excellent">Excellent</label>
+        </div>
+      </div>
+      <div class="btns">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </div>
+</body>

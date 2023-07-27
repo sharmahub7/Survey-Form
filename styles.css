@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    list-style-type: none;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 600px;
+    border: 1px rgba(128, 128, 128, 0.452) solid;
+    border-radius: 10px;
+    margin: 30px auto;
+    box-shadow: -10px 10px 20px lightgrey;
+}
+
+.banner {
+    padding: 20px;
+    background-image: url('https://i.postimg.cc/1XSgdL7c/blurry-gradient-haikei.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.banner h1 {
+    width: 40%;
+}
+
+form {
+    padding: 20px 30px;
+}
+
+input {
+    padding: 7px;
+}
+
+.title {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.techs-list {
+    display: flex;
+    gap: 80px;
+    justify-content: start;
+}
+
+.developer-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1px rgba(128, 128, 128, 0.301) solid;
+    padding: 15px 0;
+}
+
+.techs {
+    padding: 20px 0;
+    border-bottom: 1px rgba(128, 128, 128, 0.301) solid;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex * {
+    width: 48%;
+}
+
+.survey .title {
+    margin-top: 15px;
+}
+
+.questions {
+    margin: 15px 0;
+}
+
+.questions p {
+    margin: 5px 0;
+}
+
+.questions input {
+    margin-left: 8px;
+}
+
+.btns {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns * {
+    width: 48%;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        display: none;
+    }
+    .mobile {
+        display: block;
+        font-weight: bold;
+    }
+}
+
+;
